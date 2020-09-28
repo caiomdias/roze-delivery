@@ -1,13 +1,6 @@
 .mini-cart {
 	position: relative;
-	flex: 1;
-	justify-content: flex-end;
-	display: flex;
 	cursor: pointer;
-	@media screen and (max-width: 620px) {
-		flex: 0;
-		margin-left: .8em;
-	}
 	&__icon {
 		fill: $white;
 	}
