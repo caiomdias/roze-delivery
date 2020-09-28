@@ -1,0 +1,225 @@
+{
+	"data": {
+		"poc": {
+			"id": "532",
+			"products": [{
+				"id": "9405",
+				"title": "Camisinha Olla 3 un.",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009405_43a71fd3-7ba5-4e26-b84c-e3088e663637.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "9039",
+					"price": 11.9,
+					"inventoryItemId": "80339",
+					"shortDescription": null,
+					"title": "Camisinha Olla 3 un.",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Para festas & churrascos",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "9359",
+				"title": "Copo Plástico 300ml",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009359_ba6b7b62-da76-4a8c-9618-c41ae32403bd.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "8993",
+					"price": 11.9,
+					"inventoryItemId": "80343",
+					"shortDescription": null,
+					"title": "Copo Plástico 300ml",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Para festas & churrascos",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "8790",
+				"title": "Halls Extra Forte",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/8790_5373dae3-0c77-4d63-90aa-c1d4204b11a0.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-06-06T14:01:42",
+					"productVariantId": "8424",
+					"price": 4.5,
+					"inventoryItemId": "80128",
+					"shortDescription": "a",
+					"title": "Halls Extra Forte",
+					"published": null,
+					"volume": "5",
+					"volumeUnit": null,
+					"description": "b",
+					"subtitle": "Outros",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "9339",
+				"title": "Saco de Gelo em Cubos - 2kg",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009339_d3162348-c1f7-4dc0-95d0-0bca8e14ab06.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "8973",
+					"price": 9.9,
+					"inventoryItemId": "80311",
+					"shortDescription": null,
+					"title": "Saco de Gelo em Cubos - 2kg",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Para festas & churrascos",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "9350",
+				"title": "Carvão Vegetal 2,5kg",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009350_98d837ac-e98d-49a4-8e5c-b01cda3f6960.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "8984",
+					"price": 23.9,
+					"inventoryItemId": "80305",
+					"shortDescription": null,
+					"title": "Carvão Vegetal 2,5kg",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Para festas & churrascos",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "8795",
+				"title": "Halls Melancia",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008795_64d5ebab-e133-4c1d-bb3c-e87a1b7c6a04.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "8429",
+					"price": 4.5,
+					"inventoryItemId": "80131",
+					"shortDescription": null,
+					"title": "Halls Melancia",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Balas & Doces",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "9400",
+				"title": "Baralho Copag 139 Azul ou Vermelho",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009400_ccab5d33-c0d0-4488-a608-7130beaad63c.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "9034",
+					"price": 18.9,
+					"inventoryItemId": "80346",
+					"shortDescription": null,
+					"title": "Baralho Copag 139 Azul ou Vermelho",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Para festas & churrascos",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "9402",
+				"title": "Isqueiro Bic Pequeno",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00009402_5641a94f-2165-44e3-96f5-1d76e627c898.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "9036",
+					"price": 6.5,
+					"inventoryItemId": "80348",
+					"shortDescription": null,
+					"title": "Isqueiro Bic Pequeno",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Para festas & churrascos",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}, {
+				"id": "8794",
+				"title": "Halls Cereja",
+				"rgb": false,
+				"images": [{
+					"url": "https://courier-images-codechallenge.s3-us-west-2.amazonaws.com/product/00008794_99b661be-1619-4deb-a938-857456f4189a.jpg",
+					"__typename": "ProductImage"
+				}],
+				"productVariants": [{
+					"availableDate": "2018-10-31T00:00:00",
+					"productVariantId": "8428",
+					"price": 4.5,
+					"inventoryItemId": "80130",
+					"shortDescription": null,
+					"title": "Halls Cereja",
+					"published": null,
+					"volume": "0",
+					"volumeUnit": null,
+					"description": null,
+					"subtitle": "Balas & Doces",
+					"components": [],
+					"__typename": "ProductVariant"
+				}],
+				"__typename": "Product"
+			}],
+			"__typename": "POC"
+		}
+	}
+}

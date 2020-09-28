@@ -1,3 +1,0 @@
-GEOCODE_KEY=AIzaSyDMntPGqga3Q7YGodIUmU55iO5iWbrjuG0
-GEOCODE_API=https://maps.googleapis.com/maps/api/geocode/json
-ZE_BASE_URL=https://api.code-challenge.ze.delivery/public/graphql

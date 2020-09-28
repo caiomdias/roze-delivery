@@ -35,7 +35,6 @@ const Products = (props) => {
         }
       })
     }
-    return;
   }, [])
 
   return (

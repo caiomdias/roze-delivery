@@ -1,0 +1,55 @@
+{
+	"results": [{
+		"address_components": [{
+			"long_name": "Rua Américo Brasiliense",
+			"short_name": "R. Américo Brasiliense",
+			"types": ["route"]
+		}, {
+			"long_name": "Santo Amaro",
+			"short_name": "Santo Amaro",
+			"types": ["administrative_area_level_4", "political"]
+		}, {
+			"long_name": "São Paulo",
+			"short_name": "São Paulo",
+			"types": ["administrative_area_level_2", "political"]
+		}, {
+			"long_name": "São Paulo",
+			"short_name": "SP",
+			"types": ["administrative_area_level_1", "political"]
+		}, {
+			"long_name": "Brazil",
+			"short_name": "BR",
+			"types": ["country", "political"]
+		}],
+		"formatted_address": "R. Américo Brasiliense - Santo Amaro, São Paulo - SP, Brazil",
+		"geometry": {
+			"bounds": {
+				"northeast": {
+					"lat": -23.6248038,
+					"lng": -46.6886441
+				},
+				"southwest": {
+					"lat": -23.6400549,
+					"lng": -46.7103848
+				}
+			},
+			"location": {
+				"lat": -23.6326915,
+				"lng": -46.6998379
+			},
+			"location_type": "GEOMETRIC_CENTER",
+			"viewport": {
+				"northeast": {
+					"lat": -23.6248038,
+					"lng": -46.6886441
+				},
+				"southwest": {
+					"lat": -23.6400549,
+					"lng": -46.7103848
+				}
+			}
+		},
+		"place_id": "ChIJ4VKIVe9QzpQRG5jUYxHn3hA",
+		"types": ["route"]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	"data": {
+		"allCategory": [{
+			"title": "Cervejas",
+			"id": "94",
+			"__typename": "Category"
+		}, {
+			"title": "Destilados",
+			"id": "95",
+			"__typename": "Category"
+		}, {
+			"title": "Vinhos",
+			"id": "92",
+			"__typename": "Category"
+		}, {
+			"title": "Sem álcool",
+			"id": "96",
+			"__typename": "Category"
+		}, {
+			"title": "Petiscos",
+			"id": "97",
+			"__typename": "Category"
+		}, {
+			"title": "Outros",
+			"id": "98",
+			"__typename": "Category"
+		}]
+	}
+}
