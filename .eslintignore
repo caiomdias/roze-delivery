@@ -1,0 +1,5 @@
+dist/**
+*.json
+src/assets/**
+*.scss
+.env

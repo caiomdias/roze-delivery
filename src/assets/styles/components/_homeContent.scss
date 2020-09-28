@@ -1,0 +1,19 @@
+.home-content {
+	height: calc(100vh - #{$footerHeight});
+	background: $patternBackground;
+	background-image: url(../../images/png/bg-pattern.jpg);
+	background-repeat: repeat;
+	background-position: top left;
+	background-blend-mode: screen, difference, lighten;
+	display: flex;
+	align-items: center;
+	.content-wrapper {
+		margin-top: -15vh;
+		h1 {
+			font-size: 2.5em;
+			max-width: 550px;
+			text-align: center;
+			margin-bottom: 0.5em;
+		}
+	}
+}

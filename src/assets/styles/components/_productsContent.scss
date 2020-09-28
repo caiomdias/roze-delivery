@@ -1,0 +1,18 @@
+.products-content {
+	background: $lightGray;
+	min-height: calc(100vh - #{$headerHeight + $footerHeight});
+	padding-top: $headerHeight;
+	.container {
+		margin-top: 3em;
+		.item {
+			background: rgb(255, 255, 255);
+			p {
+				text-transform: uppercase;
+				color: rgb(153, 153, 153);
+				padding: 16px 16px 8px;
+				font-size: 14px;
+				font-weight: 400;
+			}
+		}
+	}
+}
