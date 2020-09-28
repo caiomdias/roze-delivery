@@ -10,6 +10,9 @@ exports[`Shelf Component Should render correctly Shelf component 1`] = `
     <img
       src="test-file-stub"
     />
+    <p>
+      Putz, não conseguimos encontrar nenhum produto dessa categoria
+    </p>
   </div>
 </div>
 `;
