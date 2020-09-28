@@ -31,5 +31,23 @@ yarn test
 ```
 
 
+## Pesiveis melhorias
+
+# Testes
+- Adicionar mais testes unitarios cobrindo o funcionamento de todos os componentes.
+- Adicionar mais testes unitarios cobrindo o funcionamento basico dos serviços.
+- Adicionar testes do Cypress para os fluxos de dado nas paginas ```Home``` e ```Products```.
+- Adicionar Storybook para demonstração estatica dos componentes e cobertura de comportamento dos elementos usados.
+
+# Interface
+- Adicionar fluxos de loading para feedback do usuario.
+- Adicionar fluxos de erro para melhor feedback do usuario.
+- Melhorar Tratamento das imagens para melhorar a fluides do layout
+
+# CI/CD
+- Adicionar pipeline para CI/CD.
+- Adicionar hooks de push/merge e pull requests no gitHub.
+- Adicionar travas de push (ex. Husky).
+
 ## Créditos
 
