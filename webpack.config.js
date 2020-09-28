@@ -9,7 +9,7 @@ module.exports = {
   },
 	output: {
 		filename: 'bundle.js',
-		publicPath: '/dist/',
+		publicPath: '/',
 		path: path.resolve(__dirname, './dist')
 	},
 	plugins: [
