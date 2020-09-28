@@ -5,8 +5,7 @@ import { BrowserRouter as Router,
 } from 'react-router-dom';
 
 //Common Components
-import Footer from './common/Footer';
-import Cart from './common/Cart';
+import Footer from './common/footer/Footer';
 
 //Pages
 import Home from './pages/Home/Home';
@@ -17,7 +16,8 @@ export default () => (
 		{/* <Cart /> */}
 		<Switch>
 			<Route exact path='/' component={Home} />
-			<Route path='/products/:lat/:long' component={Products} />
+			<Route path='/products' component={Products} />
+			<Route exact path='*' component={Home} />
 		</Switch>
 		<Footer/>
 	</Router>

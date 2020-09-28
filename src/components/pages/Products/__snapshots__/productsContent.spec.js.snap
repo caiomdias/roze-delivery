@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products Content Component Should render correctly ProductsContent component 1`] = `
+<div
+  className="products-content"
+>
+  <div
+    className="container"
+  />
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shelf Component Should render correctly Shelf component 1`] = `
+<div
+  className="shelf"
+>
+  <div
+    className="shelf__not-found"
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+</div>
+`;

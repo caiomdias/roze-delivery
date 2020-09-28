@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component render correctly Header component 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="container content"
+  >
+    <div
+      className="header__logo"
+      onClick={[Function]}
+    >
+      <img
+        alt="Jose Entregas"
+        src=""
+        style=""
+      />
+    </div>
+  </div>
+</header>
+`;

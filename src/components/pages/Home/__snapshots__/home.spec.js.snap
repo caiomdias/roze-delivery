@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component render correctly Home component 1`] = `
+Array [
+  <header
+    className="header"
+  >
+    <div
+      className="container content"
+    >
+      <div
+        className="header__logo"
+        onClick={[Function]}
+      >
+        <img
+          alt="Jose Entregas"
+          src="test-file-stub"
+          style={
+            Object {
+              "cursor": "unset",
+              "width": "50px",
+            }
+          }
+        />
+      </div>
+    </div>
+  </header>,
+  <div
+    className="home-content"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="content-wrapper"
+      >
+        <h1>
+          <strong>
+            Bebidas geladas 
+          </strong>
+           a 
+          <strong>
+            preço 
+          </strong>
+          de mercado na sua casa 
+          <strong>
+            agora
+          </strong>
+        </h1>
+        <div
+          className="search"
+        >
+          <div
+            className="search__input"
+          >
+            <div
+              className="icon"
+            />
+            <input
+              className="input"
+              onChange={[Function]}
+              placeholder="Insera seu endereço para ver preço"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

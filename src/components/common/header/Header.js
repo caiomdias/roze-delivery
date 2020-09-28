@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory, useLocation } from 'react-router-dom'
-import Search from '../common/Search';
-import MiniCart from '../common/MiniCart';
+import Search from '../search/Search';
+import MiniCart from '../miniCart/MiniCart';
 
 const Header = (props) => {
 	const history = useHistory();
@@ -12,7 +12,7 @@ const Header = (props) => {
 		<header className="header">
 			<div className="container content">
 				<div onClick={() => history.push('/')} className="header__logo">
-					<img style={config.style} src={config.image} alt="Jose Entregas"/>
+					<img style={config && config.style} src={config && config.image} alt="Jose Entregas"/>
 				</div>
 				{
 					config.hasSearch && (

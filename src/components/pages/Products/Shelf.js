@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import ProductCard from '../../common/ProductCard'
+import ProductCard from '../../common/productCard/ProductCard'
 import { getProducts } from '../../../services/ZeApi'
+import productNotFound from '../../../assets/images/png/product-not-found.png';
+
 
 const Shelf = (props) => {
 	const { categoryId, distributorId } = props
@@ -28,11 +30,14 @@ const Shelf = (props) => {
 	return (
     <div className="shelf">
       {
-        products
+        products.length !== 0
           ? products.map((item, index) => (
             <ProductCard key={index} product={item}/>
           ))
-          : ''
+          : <div className="shelf__not-found">
+              <img src={productNotFound}></img>
+              <p>Putz, não conseguimos encontrar nenhum produto dessa categoria</p>
+            </div>
       }
     </div>
 	)

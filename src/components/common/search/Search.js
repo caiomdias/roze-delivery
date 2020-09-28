@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import MapPinIcon from '../../assets/images/svg/map-pin';
-import SearchIcon from '../../assets/images/svg/search';
-import ArrowBack from '../../assets/images/svg/arrow-back';
-import searchImage from '../../assets/images/png/product-not-found.png';
-import addressImage from '../../assets/images/png/not-found.png';
-import GeoCodeAPI from '../../services/Geocode';
+import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 
-const SearchInput = (props) => {
-	const { type, placeholder } = props;
+import GeoCodeAPI from '../../../services/Geocode'
+
+import MapPinIcon from '../../../assets/images/svg/map-pin'
+import SearchIcon from '../../../assets/images/svg/search'
+import ArrowBack from '../../../assets/images/svg/arrow-back'
+import searchImage from '../../../assets/images/png/product-not-found.png'
+import addressImage from '../../../assets/images/png/not-found.png'
+
+const SearchInput = ({ type, placeholder }) => {
 	const [searchTerm, setSearchTerm] = useState('');
 	const [isActive, setActive] = useState(false);
 	const [isLoading, setLoading] = useState(false);
@@ -126,12 +127,18 @@ const SearchInput = (props) => {
 									{
 										results.map(({ address, location }, i) => {
 											return (
-												<p
-												className="search__item"
-												onClick={() => history.push(
-													`/products/${location.lat}/${location.lng}`, 
-												)}
-												key={i}>{address}</p>
+                        <div key={i} className="search__result-content">
+                          <MapPinIcon />
+                          <p
+                            className="search__result-item"
+                            onClick={() => history.push(`/products`, 
+                              {
+                                lat: location.lat,
+                                long: location.lng
+                              }
+                            )}>{address}
+                          </p>
+                        </div>
 											)
 										})
 									}

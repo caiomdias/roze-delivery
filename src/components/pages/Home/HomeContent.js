@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from '../../common/Search'
+import Search from '../../common/search/Search'
 
 const HomeContent = () => (
 	<div className="home-content">

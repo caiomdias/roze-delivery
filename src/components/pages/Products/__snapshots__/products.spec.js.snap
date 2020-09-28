@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products Component Should render correctly Products component 1`] = `
+<div>
+  <header
+    className="header"
+  >
+    <div
+      className="container content"
+    >
+      <div
+        className="header__logo"
+        onClick={[Function]}
+      >
+        <img
+          alt="Jose Entregas"
+          src="test-file-stub"
+          style={
+            Object {
+              "cursor": "pointer",
+              "width": "55px",
+            }
+          }
+        />
+      </div>
+      <div
+        className="header__search"
+      >
+        <div
+          className="search"
+        >
+          <div
+            className="search__input"
+          >
+            <div
+              className="icon"
+            />
+            <input
+              className="input"
+              onChange={[Function]}
+              placeholder="Pesquise sua bebida favorita"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    className="products-content"
+  >
+    <div
+      className="container"
+    />
+  </div>
+</div>
+`;

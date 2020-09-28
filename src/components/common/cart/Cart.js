@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ProductCard from '../common/ProductCard'
-import Close from '../../assets/images/svg/close';
+import ProductCard from '../productCard/ProductCard'
+import Close from '../../../assets/images/svg/close';
 
 const Cart = (props) => {
 	const [isOpen, setOpen] = useState(true);

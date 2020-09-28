@@ -1,14 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Shelf from './Shelf';
 import { getCategories } from '../../../services/ZeApi'
 
-const ProductsContent = (props) =>  {
-  const { distributorId } = props
+const ProductsContent = ({ distributorId }) =>  {
   const [ allCategories, setAllCategories ] = useState([])
-  const [ distributorIdState, setDistributorIdState ] = useState(distributorId || '532')
+  const [ distributorIdState, setDistributorIdState ] = useState(distributorId || '')
 
   const variables = {
-    id: '532',
+    id: distributorIdState,
     search: '',
     categoryId: null
   }

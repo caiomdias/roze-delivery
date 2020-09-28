@@ -17,11 +17,11 @@ const ProductCard = ({ mode, product }) => {
 		<div className={`product-card product-card--${mode}`}>
 			<div className="product-card__content">
 				<div className="product-card__image">
-					<img src={productState.images[0].url} alt={`Imagem de ${productState.title}`}/>
+					<img src={productState.images && productState.images[0].url} alt={`Imagem de ${productState.title}`}/>
 				</div>
 				<div className="product-card__description">
 					<h4 className="product-card__title">{productState.title}</h4>
-					<p className="product-card__price">R$ {productState.productVariants[0].price}</p>
+					<p className="product-card__price">R$ {productState.productVariants && productState.productVariants[0].price}</p>
 				</div>
 			</div>
 			<div className="product-card__actions">

@@ -1,8 +1,5 @@
-import React, {
-  useEffect,
-  useState
-} from 'react';
-import Header from '../../common/Header';
+import React, { useEffect, useState } from 'react';
+import Header from '../../common/header/Header';
 import ProductsContent from './ProductsContent';
 import shortLogo from '../../../assets/images/png/logo.png';
 import { getDistributor } from '../../../services/ZeApi'
@@ -17,17 +14,16 @@ const headerConfig = {
 };
 
 const Products = (props) => {
-  const { lat, long } = props.match.params
-
-  const [distributorId, setDistributorId] = useState('')
+  const { lat, long } = props.history.location.state
+  const [distributorId, setDistributorId] = useState('532')
   const [latState, setLatState] = useState(lat || '')
   const [longState, setLongState] = useState(long || '')
 
   const variables = {
     algorithm: "NEAREST",
-    lat: "-23.632919", //latState,
-    long: "-46.699453", //longState,
-    now: "2017-08-01T20:00:00.000Z"
+    lat: latState,
+    long: longState,
+    now: new Date()
   }
 
   useEffect(() => {

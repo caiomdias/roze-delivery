@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeContent from './HomeContent';
 import whiteLogo from '../../../assets/images/png/logo.png';
-import Header from '../../common/Header';
+import Header from '../../common/header/Header';
 
 const headerConfig = {
 	image: whiteLogo,

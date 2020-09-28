@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack-dev-server --inline --content-base  --history-api-fallback --open",
     "build": "webpack --config webpack.config.js --mode production"
   },
@@ -36,7 +36,9 @@
     "fibers": "^5.0.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.4.2",
+    "jest-mock": "^26.3.0",
     "node-sass": "^4.14.1",
     "react-svg-loader": "^3.0.3",
     "resolve-url-loader": "^3.1.1",

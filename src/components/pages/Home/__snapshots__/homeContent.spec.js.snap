@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Content Component render correctly Home Content component 1`] = `
+<div
+  className="home-content"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="content-wrapper"
+    >
+      <h1>
+        <strong>
+          Bebidas geladas 
+        </strong>
+         a 
+        <strong>
+          preço 
+        </strong>
+        de mercado na sua casa 
+        <strong>
+          agora
+        </strong>
+      </h1>
+      <div
+        className="search"
+      >
+        <div
+          className="search__input"
+        >
+          <div
+            className="icon"
+          />
+          <input
+            className="input"
+            onChange={[Function]}
+            placeholder="Insera seu endereço para ver preço"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

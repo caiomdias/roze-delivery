@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Cart Component render correctly ProductCard component 1`] = `
+<div
+  className="product-card product-card--shelf"
+>
+  <div
+    className="product-card__content"
+  >
+    <div
+      className="product-card__image"
+    >
+      <img
+        alt="Imagem de undefined"
+      />
+    </div>
+    <div
+      className="product-card__description"
+    >
+      <h4
+        className="product-card__title"
+      />
+      <p
+        className="product-card__price"
+      >
+        R$ 
+      </p>
+    </div>
+  </div>
+  <div
+    className="product-card__actions"
+  >
+    <div
+      className="quantity"
+    >
+      <div
+        className="quantity__minus"
+        onClick={[Function]}
+      >
+        -
+      </div>
+      <div
+        className="quantity__value"
+      >
+        0
+      </div>
+      <div
+        className="quantity__plus"
+        onClick={[Function]}
+      >
+        +
+      </div>
+    </div>
+    <div
+      className="buy-button"
+    >
+      Adicionar
+    </div>
+  </div>
+</div>
+`;

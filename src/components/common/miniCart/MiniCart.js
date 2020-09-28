@@ -1,5 +1,5 @@
 import React from 'react';
-import CartIcon from '../../assets/images/svg/cart';
+import CartIcon from '../../../assets/images/svg/cart';
 
 const MiniCart = (props) => (
 	<div className="mini-cart">

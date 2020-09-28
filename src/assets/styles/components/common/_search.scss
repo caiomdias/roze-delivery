@@ -39,7 +39,6 @@
 		background: $white;
 		margin-top: .8em;
 		border-radius: .8em;
-		padding: 2em;
 		box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.75);
 		opacity: 0;
 		transition: all ease-in-out .6s;
@@ -55,9 +54,18 @@
 			strong {
 				display: block;
 			}
+			p {
+				padding: 16px;
+			}
 		}
 	}
-	&__item {
+	&__result-content {
+		display: flex;
+		justify-content: left;
+		padding: 6px;
+	}
+	&__result-item {
 		cursor: pointer;
+		padding: 26px 16px;
 	}
 }
