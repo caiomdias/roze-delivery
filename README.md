@@ -12,7 +12,7 @@ Este projeto foi feito utilizando:
 
 Para executar localmente configure o arquivo ```.env``` na raiz do projeto como o arquivo de exemplo ``` .env-example ```
 
-instalar as dependencias
+Instalar as dependências
 
 ```sh
 yarn
