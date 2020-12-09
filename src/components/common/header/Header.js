@@ -14,7 +14,7 @@ const Header = (props) => {
 				<div onClick={() => history.push('/')} className="header__logo">
 					<img style={config && config.style} src={config && config.image} alt="Jose Entregas"/>
 				</div>
-				{
+				{/* {
 					config.hasSearch && (
 						<div className="header__search">
 							<Search
@@ -23,8 +23,8 @@ const Header = (props) => {
 							/>
 						</div>
 					)
-				}
-				{ pathname !== '/' && ( <MiniCart /> )}
+				} */}
+				{/* { pathname !== '/' && ( <MiniCart /> )} */}
 			</div>
 		</header>
 	)
